@@ -41,7 +41,7 @@ sed -i 's/Armbian-unofficial/Armbian OS/g' /etc/armbian-release
 
 # 设置ssh连接显示信息
 sed -i 's/No end-user support/Builder User/g' /etc/update-motd.d/10-armbian-header  
-sed -i 's/built from trunk/Lemon1151 https:\/\/github.com\/Lemon1151\/Armbian-Actions/g' /etc/update-motd.d/10-armbian-header
+sed -i 's/built from trunk/ZoneBen https:\/\/github.com\/ZoneBen\/Armbian-Actions/g' /etc/update-motd.d/10-armbian-header
 
 Main() {
 	case $RELEASE in
