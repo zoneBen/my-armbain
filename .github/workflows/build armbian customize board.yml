@@ -16,6 +16,7 @@ on:
           - sg2710
           - tpm312
           - tb-ls3399
+          - fmx1
           - xiaobao-nas
           - zysj
       BRANCH:  
